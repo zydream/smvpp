@@ -82,7 +82,8 @@ static ipsecmb_main_t ipsecmb_main = { };
   _ (AES_256_CBC, 256, CBC)                                                   \
   _ (AES_128_CTR, 128, CNTR)                                                  \
   _ (AES_192_CTR, 192, CNTR)                                                  \
-  _ (AES_256_CTR, 256, CNTR)
+  _ (AES_256_CTR, 256, CNTR)                                                  \
+  _ (SM4_CBC, 128, CBC)
 
 /*
  * (Alg, key-len-bytes, iv-len-bytes)

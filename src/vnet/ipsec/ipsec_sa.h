@@ -42,7 +42,8 @@
   _ (12, CHACHA20_POLY1305, "chacha20-poly1305")                              \
   _ (13, AES_NULL_GMAC_128, "aes-null-gmac-128")                              \
   _ (14, AES_NULL_GMAC_192, "aes-null-gmac-192")                              \
-  _ (15, AES_NULL_GMAC_256, "aes-null-gmac-256")
+  _ (15, AES_NULL_GMAC_256, "aes-null-gmac-256")                              \
+  _ (16, SM4_CBC, "sm4-cbc")
 
 typedef enum
 {
@@ -77,7 +78,8 @@ typedef enum
   _ (3, SHA_256_96, "sha-256-96")   /* draft-ietf-ipsec-ciph-sha-256-00 */ \
   _ (4, SHA_256_128, "sha-256-128") /* RFC4868 */                          \
   _ (5, SHA_384_192, "sha-384-192") /* RFC4868 */                          \
-  _ (6, SHA_512_256, "sha-512-256")	/* RFC4868 */
+  _ (6, SHA_512_256, "sha-512-256")	/* RFC4868 */                          \
+  _ (7, SM3_256_128, "sm3-256-128")
 
 typedef enum
 {

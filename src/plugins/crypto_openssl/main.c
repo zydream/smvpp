@@ -46,6 +46,7 @@ static openssl_per_thread_data_t *per_thread_data = 0;
   _ (cbc, DES_CBC, EVP_des_cbc, 8)                                            \
   _ (cbc, 3DES_CBC, EVP_des_ede3_cbc, 8)                                      \
   _ (cbc, AES_128_CBC, EVP_aes_128_cbc, 16)                                   \
+  _ (cbc, SM4_CBC, EVP_sm4_cbc, 16)                                           \
   _ (cbc, AES_192_CBC, EVP_aes_192_cbc, 16)                                   \
   _ (cbc, AES_256_CBC, EVP_aes_256_cbc, 16)                                   \
   _ (gcm, AES_128_GCM, EVP_aes_128_gcm, 8)                                    \

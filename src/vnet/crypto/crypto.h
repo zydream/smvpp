@@ -30,7 +30,8 @@
   _(AES_256_CBC, "aes-256-cbc", 32) \
   _(AES_128_CTR, "aes-128-ctr", 16) \
   _(AES_192_CTR, "aes-192-ctr", 24) \
-  _(AES_256_CTR, "aes-256-ctr", 32)
+  _(AES_256_CTR, "aes-256-ctr", 32) \
+  _(SM4_CBC, "sm4-cbc", 16)
 
 /* CRYPTO_ID, PRETTY_NAME, KEY_LENGTH_IN_BYTES */
 #define foreach_crypto_aead_alg                                               \

@@ -40,6 +40,7 @@ enum ipsec_crypto_alg
   IPSEC_API_CRYPTO_ALG_AES_NULL_GMAC_128 [backwards_compatible],
   IPSEC_API_CRYPTO_ALG_AES_NULL_GMAC_192 [backwards_compatible],
   IPSEC_API_CRYPTO_ALG_AES_NULL_GMAC_256 [backwards_compatible],
+  IPSEC_API_CRYPTO_ALG_SM4_CBC [backwards_compatible],
 };
 
 /*
@@ -60,6 +61,7 @@ enum ipsec_integ_alg
   IPSEC_API_INTEG_ALG_SHA_384_192,
   /* RFC4868 */
   IPSEC_API_INTEG_ALG_SHA_512_256,
+  IPSEC_API_INTEG_ALG_SM3_256_128,
 };
 
 enum ipsec_sad_flags
